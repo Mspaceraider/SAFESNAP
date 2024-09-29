@@ -1,0 +1,12 @@
+- !<AssetCache/feef8efc-c0fc-da42-d022-56339d5eed51>
+  AssetFiles:
+    7fa00348-a2be-484e-a3b0-3f86c9e75fac: 6dd0da90-a71a-4e27-ae49-cdf38d71d545/feef8efcc0fcda42d02256339d5eed51/Data/beep2.mp3
+  AssetCurrentFiles:
+    7fa00348-a2be-484e-a3b0-3f86c9e75fac: 6dd0da90-a71a-4e27-ae49-cdf38d71d545/feef8efcc0fcda42d02256339d5eed51/Data/beep2.mp3
+  Assets:
+    - !<FileAudioTrack/7fa00348-a2be-484e-a3b0-3f86c9e75fac>
+      PackagePath: ""
+  SourceHash: feef8efcc0fcda42d02256339d5eed51
+  FileHash: 602d44b9d1673864d5d4d62bf1da4efd
+  NativePackageItems:
+    []
