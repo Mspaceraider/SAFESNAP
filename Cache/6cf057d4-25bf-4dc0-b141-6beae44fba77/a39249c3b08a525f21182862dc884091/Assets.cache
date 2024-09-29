@@ -1,0 +1,96 @@
+- !<AssetCache/f3e0a5ec-8571-04bd-81ec-eb25169a3610>
+  AssetFiles:
+    f17516eb-0a01-4677-ab2b-f5481cfe2926: 6cf057d4-25bf-4dc0-b141-6beae44fba77/a39249c3b08a525f21182862dc884091/Data/location_material 1.ss_graph
+  AssetCurrentFiles:
+    f17516eb-0a01-4677-ab2b-f5481cfe2926: 6cf057d4-25bf-4dc0-b141-6beae44fba77/a39249c3b08a525f21182862dc884091/Data/location_material 1.ss_graph
+  Assets:
+    - !<ShaderGraphPass/f17516eb-0a01-4677-ab2b-f5481cfe2926>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_AO_N006:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Albedo_N006:
+          typeIdx: 4
+          value: {x: 0.490196, y: 0.490196, z: 0.491737}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Emissive_N006:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N012:
+          typeIdx: 1
+          value: 0.500000
+        Port_Metallic_N006:
+          typeIdx: 1
+          value: 0.000000
+        Port_Normal_N006:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_Opacity_N006:
+          typeIdx: 1
+          value: 1.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Roughness_N006:
+          typeIdx: 1
+          value: 0.000000
+        Port_SpecularAO_N006:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData/6e438ab7-ac42-467c-8d53-1cc3f708538a>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 6cf057d4-25bf-4dc0-b141-6beae44fba77/a39249c3b08a525f21182862dc884091/Data/242fadd/location_material 1.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: a39249c3b08a525f21182862dc884091
+  FileHash: 78893e9f565e2a130c2fbb2c51d8d927
+  NativePackageItems:
+    []

@@ -1,0 +1,130 @@
+- !<AssetCache/fa330d3b-8cab-6ba3-8c83-42ff05697e63>
+  AssetFiles:
+    022b00e0-2182-4a3b-b2ce-6a8b6358d2c2: 05d194c6-cdfd-47ce-b03e-1afa7d8b2b98/fa330d3b8cab6ba38c8342ff05697e63/Data/Segmentation.ss_graph
+  AssetCurrentFiles:
+    022b00e0-2182-4a3b-b2ce-6a8b6358d2c2: 05d194c6-cdfd-47ce-b03e-1afa7d8b2b98/fa330d3b8cab6ba38c8342ff05697e63/Data/Segmentation.ss_graph
+  Assets:
+    - !<ShaderGraphPass/022b00e0-2182-4a3b-b2ce-6a8b6358d2c2>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Center_N010:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N007:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Scale_N010:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Port_Value3_N006:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N006:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData/a30a9e8b-5a84-47e0-960b-162e75362334>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Device Camera Texture
+            mType: Property
+            mName: deviceTex
+            mWidget: texture_group
+            mHint: "Property: deviceTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: "[DO NOT EDIT]"
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 05d194c6-cdfd-47ce-b03e-1afa7d8b2b98/fa330d3b8cab6ba38c8342ff05697e63/Data/242fadd/Segmentation.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: fa330d3b8cab6ba38c8342ff05697e63
+  FileHash: a7ce47b7fc5b41fb2fd96c62bdc8b00a
+  NativePackageItems:
+    []
