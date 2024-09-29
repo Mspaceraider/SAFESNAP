@@ -1,0 +1,12 @@
+- !<AssetCache/59fae0c6-c11c-74c0-9d57-12ab0ffee380>
+  AssetFiles:
+    f8f65d4c-7161-4f44-923b-af7c5344aabf: 0ccc644a-ac39-43f3-ae0b-3b3fda00ece1/59fae0c6c11c74c09d5712ab0ffee380/Data/ambient_warehouse_lab.mp3
+  AssetCurrentFiles:
+    f8f65d4c-7161-4f44-923b-af7c5344aabf: 0ccc644a-ac39-43f3-ae0b-3b3fda00ece1/59fae0c6c11c74c09d5712ab0ffee380/Data/ambient_warehouse_lab.mp3
+  Assets:
+    - !<FileAudioTrack/f8f65d4c-7161-4f44-923b-af7c5344aabf>
+      PackagePath: ""
+  SourceHash: 59fae0c6c11c74c09d5712ab0ffee380
+  FileHash: 75b02dc092bdc5f34c971fe2fbb5f1f3
+  NativePackageItems:
+    []

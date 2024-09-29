@@ -1,0 +1,12 @@
+- !<AssetCache/567044de-d2f5-86c2-4232-20c31fd46821>
+  AssetFiles:
+    d47747b7-ac5b-409f-b2c8-578af04b6810: 02a1befe-2ff6-4ada-8dcc-a4cb94a052da/567044ded2f586c2423220c31fd46821/Data/37bb-cd93-44b9-a358-8a2d42336603.mp3
+  AssetCurrentFiles:
+    d47747b7-ac5b-409f-b2c8-578af04b6810: 02a1befe-2ff6-4ada-8dcc-a4cb94a052da/567044ded2f586c2423220c31fd46821/Data/37bb-cd93-44b9-a358-8a2d42336603.mp3
+  Assets:
+    - !<FileAudioTrack/d47747b7-ac5b-409f-b2c8-578af04b6810>
+      PackagePath: ""
+  SourceHash: 567044ded2f586c2423220c31fd46821
+  FileHash: 9fd86ddce1b8d7ffd3f3aeb6a806ab47
+  NativePackageItems:
+    []
