@@ -1,0 +1,14 @@
+- !<AssetImportMetadata/19656ae6-6575-45d5-804c-6fe1c3ff24d1>
+  ImportedAssetIds:
+    Location: !<reference> 03793d72-e668-4ce4-8eb2-b6fff7253b4a
+  ImporterName: LocationImporter
+  PrimaryAsset: !<reference> 03793d72-e668-4ce4-8eb2-b6fff7253b4a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/3863ee12-661a-4754-a36c-64743dd3e9be>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

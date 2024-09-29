@@ -1,0 +1,102 @@
+- !<AssetImportMetadata/4c8ac99b-a177-4666-b09a-3f9b4fdcb6a5>
+  ImportedAssetIds:
+    .hidden/Material_0: !<reference> e6c2129c-03ee-4d25-a653-8c8b490b41e7
+    .hidden/white: !<reference> 22057beb-8183-42fb-860c-5127e6f14f85
+    66780cf3a4dcb2b8: !<reference> fc203f12-71ce-4067-b380-55fc2f788a1c
+    72c714cf4f36a5cd: !<reference> b49499f9-cf12-431a-ad18-16a78c8968f4
+    Materials/Material_0: !<reference> 83b85430-dd9c-413f-ad3b-7f0a10ab6198
+    Materials/Material_0|Material_0|GraphPassInfo: !<reference> 5ccff8ab-ece7-4cf5-b69e-fdd9d6b6e904
+    Meshes/Mesh_0: !<reference> de3b7c88-e15f-40cd-af16-0c3f9d630f8c
+    Scene: !<reference> a48c7379-4131-49c6-afa4-98db6a5b7ae0
+    Textures/ROOM: !<reference> 02eb536e-8078-42ac-80f7-a868ff6dc7d5
+    acb1925c659c99f8: !<reference> 94be965e-f44e-48bf-a867-4db9ecd14192
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> a48c7379-4131-49c6-afa4-98db6a5b7ae0
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  AssetDataMap:
+    Scene: !<own> d17dbfe7-6d03-4c6f-9fb4-6637feb4550d
+  DependentFiles:
+    - ROOM.jpg
+    - ROOM.mtl
+  ImporterSettings: !<D3FileImporterSettingsBase/d1caab5b-0d75-44e7-911c-bab72e73e5f7>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitize
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<ComplexCompressionSettings/6ef1365f-45e8-4e1e-8313-5c66bd53a493>
+    Presets:
+      Performance Compression: !<SingleCompressionSettings/a0beb2df-c600-45f1-a060-428ab76f4a16>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/08a15e35-843d-49a9-b75c-19eb872ae408>
+          Level: Medium
+      None Compression: !<SingleCompressionSettings/7bc7ddf6-016e-4261-8ded-8c5d644f085b>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      jpg: Performance Compression
+      mesh: None Compression
+    Overrides:
+      {}
+- !<ObjectPrefab/0cadc1fb-2f8d-491a-8b43-1493e51b9fd5>
+  PackagePath: ""
+  objects:
+    - !<own> f4f2b2a4-267d-41c6-9a35-82f4ffa5b461
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/6b63257f-ab99-4752-af41-35e09ee22694>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 83b85430-dd9c-413f-ad3b-7f0a10ab6198
+  Mesh: !<reference> de3b7c88-e15f-40cd-af16-0c3f9d630f8c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/87707267-87cd-41df-b2fc-fc74517ddcb2>
+  PrefabRemaps:
+    []
+  Name: Mesh_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6b63257f-ab99-4752-af41-35e09ee22694
+- !<ObjectPrefabAssetData/d17dbfe7-6d03-4c6f-9fb4-6637feb4550d>
+  SourceRemaps:
+    - 94be965e-f44e-48bf-a867-4db9ecd14192: 87707267-87cd-41df-b2fc-fc74517ddcb2
+    - b49499f9-cf12-431a-ad18-16a78c8968f4: 6b63257f-ab99-4752-af41-35e09ee22694
+    - fc203f12-71ce-4067-b380-55fc2f788a1c: f4f2b2a4-267d-41c6-9a35-82f4ffa5b461
+  SourceState: !<own> 0cadc1fb-2f8d-491a-8b43-1493e51b9fd5
+- !<SceneObject/f4f2b2a4-267d-41c6-9a35-82f4ffa5b461>
+  PrefabRemaps:
+    []
+  Name: ROOM
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 87707267-87cd-41df-b2fc-fc74517ddcb2
+  Components:
+    []
