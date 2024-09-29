@@ -1,0 +1,15 @@
+- !<AssetCache/e571594d-8c33-8965-204c-2c06bdce2f64>
+  AssetFiles:
+    d47b681e-ffc9-45aa-bf57-9a624ab6a3a8: 3f7b8b1a-e8e8-49cf-a71d-2e52dcbf71b8/e571594d8c338965204c2c06bdce2f64/Data/ROOM 1.jpg
+  AssetCurrentFiles:
+    d47b681e-ffc9-45aa-bf57-9a624ab6a3a8: 3f7b8b1a-e8e8-49cf-a71d-2e52dcbf71b8/e571594d8c338965204c2c06bdce2f64/Data/Performance/Medium/ROOM 1.pvr
+  Assets:
+    - !<FileTexture/d47b681e-ffc9-45aa-bf57-9a624ab6a3a8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 2048
+        Height: 752
+  SourceHash: e571594d8c338965204c2c06bdce2f64
+  FileHash: 077e497033bd0cdf672ebeb104d24ae3
+  NativePackageItems:
+    []
